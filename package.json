@@ -1,0 +1,25 @@
+{
+  "name": "reporting-tool",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/martinezvazquez122/reporting-tool.git"
+  },
+  "author": "VictorM",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/martinezvazquez122/reporting-tool/issues"
+  },
+  "homepage": "https://github.com/martinezvazquez122/reporting-tool#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "mongoose": "^5.0.9"
+  }
+}
