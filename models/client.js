@@ -107,7 +107,10 @@ var clientSchema=new mongoose.Schema({
 			},
 
 		]
-        
+	
+},
+{
+	collection: 'clients'
 });
 
 module.exports=mongoose.model("Client",clientSchema);
